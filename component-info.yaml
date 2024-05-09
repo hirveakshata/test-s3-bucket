@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-s3-bucket"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-s3-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "test-s3-bucket"
+  description: "Testing"
+  tags: ["aws-s3"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
